@@ -1,9 +1,10 @@
-package com.byungtak.lookingfor
+package com.byungtak.lookingfor.ui.main
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.byungtak.lookingfor.R
 
-class MainActivity : AppCompatActivity() {
+internal class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

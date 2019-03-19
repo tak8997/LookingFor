@@ -11,7 +11,7 @@ buildscript {
         rxandroid_version      = '2.0.2'
         rxadapter_version      = '2.3.0'
         rxrelay_version        = '2.0.0'
-        dagger_version         = '2.19'
+        dagger_version         = '2.16'
         timber_version         = '4.5.1'
         okhttp_version         = '3.10.0'
         retrofit_version       = '2.4.0'
@@ -30,10 +30,11 @@ buildscript {
         google()
         jcenter()
     }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.0'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigationVersion"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
